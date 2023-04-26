@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		565B7B9029F9988A002E457B /* GanChan_NetworkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565B7B8F29F9988A002E457B /* GanChan_NetworkApp.swift */; };
+		565B7B9229F9988A002E457B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565B7B9129F9988A002E457B /* ContentView.swift */; };
+		565B7B9429F99894002E457B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 565B7B9329F99894002E457B /* Assets.xcassets */; };
+		565B7B9829F99894002E457B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 565B7B9729F99894002E457B /* Preview Assets.xcassets */; };
+		565B7BA229F99896002E457B /* GanChan_NetworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565B7BA129F99896002E457B /* GanChan_NetworkTests.swift */; };
+		565B7BAC29F99896002E457B /* GanChan_NetworkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565B7BAB29F99896002E457B /* GanChan_NetworkUITests.swift */; };
+		565B7BAE29F99896002E457B /* GanChan_NetworkUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565B7BAD29F99896002E457B /* GanChan_NetworkUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		565B7B9E29F99896002E457B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 565B7B8429F9988A002E457B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 565B7B8B29F9988A002E457B;
+			remoteInfo = "GanChan Network";
+		};
+		565B7BA829F99896002E457B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 565B7B8429F9988A002E457B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 565B7B8B29F9988A002E457B;
+			remoteInfo = "GanChan Network";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		565B7B8C29F9988A002E457B /* GanChan Network.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GanChan Network.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		565B7B8F29F9988A002E457B /* GanChan_NetworkApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GanChan_NetworkApp.swift; sourceTree = "<group>"; };
+		565B7B9129F9988A002E457B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		565B7B9329F99894002E457B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		565B7B9529F99894002E457B /* GanChan_Network.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GanChan_Network.entitlements; sourceTree = "<group>"; };
+		565B7B9729F99894002E457B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		565B7B9D29F99896002E457B /* GanChan NetworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GanChan NetworkTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		565B7BA129F99896002E457B /* GanChan_NetworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GanChan_NetworkTests.swift; sourceTree = "<group>"; };
+		565B7BA729F99896002E457B /* GanChan NetworkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GanChan NetworkUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		565B7BAB29F99896002E457B /* GanChan_NetworkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GanChan_NetworkUITests.swift; sourceTree = "<group>"; };
+		565B7BAD29F99896002E457B /* GanChan_NetworkUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GanChan_NetworkUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		565B7B8929F9988A002E457B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		565B7B9A29F99896002E457B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		565B7BA429F99896002E457B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		565B7B8329F9988A002E457B = {
+			isa = PBXGroup;
+			children = (
+				565B7B8E29F9988A002E457B /* GanChan Network */,
+				565B7BA029F99896002E457B /* GanChan NetworkTests */,
+				565B7BAA29F99896002E457B /* GanChan NetworkUITests */,
+				565B7B8D29F9988A002E457B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		565B7B8D29F9988A002E457B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				565B7B8C29F9988A002E457B /* GanChan Network.app */,
+				565B7B9D29F99896002E457B /* GanChan NetworkTests.xctest */,
+				565B7BA729F99896002E457B /* GanChan NetworkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		565B7B8E29F9988A002E457B /* GanChan Network */ = {
+			isa = PBXGroup;
+			children = (
+				565B7B8F29F9988A002E457B /* GanChan_NetworkApp.swift */,
+				565B7B9129F9988A002E457B /* ContentView.swift */,
+				565B7B9329F99894002E457B /* Assets.xcassets */,
+				565B7B9529F99894002E457B /* GanChan_Network.entitlements */,
+				565B7B9629F99894002E457B /* Preview Content */,
+			);
+			path = "GanChan Network";
+			sourceTree = "<group>";
+		};
+		565B7B9629F99894002E457B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				565B7B9729F99894002E457B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		565B7BA029F99896002E457B /* GanChan NetworkTests */ = {
+			isa = PBXGroup;
+			children = (
+				565B7BA129F99896002E457B /* GanChan_NetworkTests.swift */,
+			);
+			path = "GanChan NetworkTests";
+			sourceTree = "<group>";
+		};
+		565B7BAA29F99896002E457B /* GanChan NetworkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				565B7BAB29F99896002E457B /* GanChan_NetworkUITests.swift */,
+				565B7BAD29F99896002E457B /* GanChan_NetworkUITestsLaunchTests.swift */,
+			);
+			path = "GanChan NetworkUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		565B7B8B29F9988A002E457B /* GanChan Network */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 565B7BB129F99896002E457B /* Build configuration list for PBXNativeTarget "GanChan Network" */;
+			buildPhases = (
+				565B7B8829F9988A002E457B /* Sources */,
+				565B7B8929F9988A002E457B /* Frameworks */,
+				565B7B8A29F9988A002E457B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GanChan Network";
+			productName = "GanChan Network";
+			productReference = 565B7B8C29F9988A002E457B /* GanChan Network.app */;
+			productType = "com.apple.product-type.application";
+		};
+		565B7B9C29F99896002E457B /* GanChan NetworkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 565B7BB429F99896002E457B /* Build configuration list for PBXNativeTarget "GanChan NetworkTests" */;
+			buildPhases = (
+				565B7B9929F99896002E457B /* Sources */,
+				565B7B9A29F99896002E457B /* Frameworks */,
+				565B7B9B29F99896002E457B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				565B7B9F29F99896002E457B /* PBXTargetDependency */,
+			);
+			name = "GanChan NetworkTests";
+			productName = "GanChan NetworkTests";
+			productReference = 565B7B9D29F99896002E457B /* GanChan NetworkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		565B7BA629F99896002E457B /* GanChan NetworkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 565B7BB729F99896002E457B /* Build configuration list for PBXNativeTarget "GanChan NetworkUITests" */;
+			buildPhases = (
+				565B7BA329F99896002E457B /* Sources */,
+				565B7BA429F99896002E457B /* Frameworks */,
+				565B7BA529F99896002E457B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				565B7BA929F99896002E457B /* PBXTargetDependency */,
+			);
+			name = "GanChan NetworkUITests";
+			productName = "GanChan NetworkUITests";
+			productReference = 565B7BA729F99896002E457B /* GanChan NetworkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		565B7B8429F9988A002E457B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					565B7B8B29F9988A002E457B = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					565B7B9C29F99896002E457B = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 565B7B8B29F9988A002E457B;
+					};
+					565B7BA629F99896002E457B = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 565B7B8B29F9988A002E457B;
+					};
+				};
+			};
+			buildConfigurationList = 565B7B8729F9988A002E457B /* Build configuration list for PBXProject "GanChan Network" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 565B7B8329F9988A002E457B;
+			productRefGroup = 565B7B8D29F9988A002E457B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				565B7B8B29F9988A002E457B /* GanChan Network */,
+				565B7B9C29F99896002E457B /* GanChan NetworkTests */,
+				565B7BA629F99896002E457B /* GanChan NetworkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		565B7B8A29F9988A002E457B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				565B7B9829F99894002E457B /* Preview Assets.xcassets in Resources */,
+				565B7B9429F99894002E457B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		565B7B9B29F99896002E457B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		565B7BA529F99896002E457B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		565B7B8829F9988A002E457B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				565B7B9229F9988A002E457B /* ContentView.swift in Sources */,
+				565B7B9029F9988A002E457B /* GanChan_NetworkApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		565B7B9929F99896002E457B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				565B7BA229F99896002E457B /* GanChan_NetworkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		565B7BA329F99896002E457B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				565B7BAE29F99896002E457B /* GanChan_NetworkUITestsLaunchTests.swift in Sources */,
+				565B7BAC29F99896002E457B /* GanChan_NetworkUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		565B7B9F29F99896002E457B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 565B7B8B29F9988A002E457B /* GanChan Network */;
+			targetProxy = 565B7B9E29F99896002E457B /* PBXContainerItemProxy */;
+		};
+		565B7BA929F99896002E457B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 565B7B8B29F9988A002E457B /* GanChan Network */;
+			targetProxy = 565B7BA829F99896002E457B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		565B7BAF29F99896002E457B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		565B7BB029F99896002E457B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		565B7BB229F99896002E457B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "GanChan Network/GanChan_Network.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GanChan Network/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "iFive.GanChan-Network";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		565B7BB329F99896002E457B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "GanChan Network/GanChan_Network.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GanChan Network/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "iFive.GanChan-Network";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		565B7BB529F99896002E457B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "iFive.GanChan-NetworkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GanChan Network.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GanChan Network";
+			};
+			name = Debug;
+		};
+		565B7BB629F99896002E457B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "iFive.GanChan-NetworkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GanChan Network.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GanChan Network";
+			};
+			name = Release;
+		};
+		565B7BB829F99896002E457B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "iFive.GanChan-NetworkUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "GanChan Network";
+			};
+			name = Debug;
+		};
+		565B7BB929F99896002E457B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "iFive.GanChan-NetworkUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "GanChan Network";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		565B7B8729F9988A002E457B /* Build configuration list for PBXProject "GanChan Network" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				565B7BAF29F99896002E457B /* Debug */,
+				565B7BB029F99896002E457B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		565B7BB129F99896002E457B /* Build configuration list for PBXNativeTarget "GanChan Network" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				565B7BB229F99896002E457B /* Debug */,
+				565B7BB329F99896002E457B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		565B7BB429F99896002E457B /* Build configuration list for PBXNativeTarget "GanChan NetworkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				565B7BB529F99896002E457B /* Debug */,
+				565B7BB629F99896002E457B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		565B7BB729F99896002E457B /* Build configuration list for PBXNativeTarget "GanChan NetworkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				565B7BB829F99896002E457B /* Debug */,
+				565B7BB929F99896002E457B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 565B7B8429F9988A002E457B /* Project object */;
+}
