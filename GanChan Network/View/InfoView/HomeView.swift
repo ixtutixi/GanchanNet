@@ -20,8 +20,9 @@ struct HomeView: View {
             HStack {
                 Text("Recently News")
                     .bold()
-                    .font(.title)
-                    .padding()
+                    .font(.title2)
+                    .padding(.horizontal,25)
+                    .padding(.vertical,5)
                     .underline()
                     .foregroundColor(Color("iwate"))
                 Spacer()

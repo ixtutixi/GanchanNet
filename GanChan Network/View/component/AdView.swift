@@ -30,7 +30,7 @@ struct AdView: View {
                                    showWebView = true
                                }
                        } placeholder: {
-                           //ProgressView()
+                           ProgressView()
                            //Text("~　広告読み込み中　~")
                        }
                    } else {
@@ -79,7 +79,7 @@ struct AdView: View {
                    })
            )
             
-       }.frame(height: 90)
+       }.frame(height: 80)
            .background(Color("iwate2"))
    }
 }
