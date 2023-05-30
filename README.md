@@ -20,7 +20,7 @@ iOS版がんちゃんねるの大幅アップデート(by ixtutixi)
 - Tabが上下に1個ずつ欲しいため、両方カスタムタブバーを自作
 
 - Combine,async-imageで非同期処理
-  - [ached-async-image](https://github.com/lorenzofiamingo/swiftui-cached-async-image)<-(画像キャッシュのためのライブラリ)
+  - [ios-ached-async-image](https://github.com/lorenzofiamingo/swiftui-cached-async-image)<-(画像キャッシュのためのライブラリ)
       
 
 ## 画面スクショ
@@ -31,3 +31,4 @@ iOS版がんちゃんねるの大幅アップデート(by ixtutixi)
 
 ## その他
 - 就活情報と学内・学外掲示板は、現在絶賛 外部組織とのmeeting & バックエンド開発中
+- 端末ごとのUI差異はまだ考慮させてない
