@@ -12,7 +12,7 @@ iOS版がんちゃんねるの大幅アップデート(by ixtutixi)
 - News(公式HP,生協,国際課), 生協バイト, 就活情報, 学内・学外掲示板
 
 - 各jsonから得たニュースをList表示(タップで対象ブラウザへモーダル遷移)
-  - 取得jsonはPHPによる対象URLのスクレイピング     
+  - [取得jsonはPHPによる対象URLのスクレイピング](https://github.com/ixtutixi/Ganchan_PHP)
   - Homeでは(公式HP,生協,国際課)の中の最新10件をRecentry Newsとして絞り込み表示
 
 - サーバー側で変更可能な広告の差し込み
