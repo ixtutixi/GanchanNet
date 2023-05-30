@@ -14,6 +14,33 @@
 		565B7BA229F99896002E457B /* GanChan_NetworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565B7BA129F99896002E457B /* GanChan_NetworkTests.swift */; };
 		565B7BAC29F99896002E457B /* GanChan_NetworkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565B7BAB29F99896002E457B /* GanChan_NetworkUITests.swift */; };
 		565B7BAE29F99896002E457B /* GanChan_NetworkUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565B7BAD29F99896002E457B /* GanChan_NetworkUITestsLaunchTests.swift */; };
+		565B7BBE29F99BBE002E457B /* NewsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565B7BBD29F99BBE002E457B /* NewsView.swift */; };
+		565B7BC229F99E12002E457B /* AppCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565B7BC129F99E12002E457B /* AppCore.swift */; };
+		565B7BC729F9AB2B002E457B /* NewsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565B7BC629F9AB2B002E457B /* NewsViewModel.swift */; };
+		567DC1AE2A1E01C3007A97D7 /* NewsItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567DC1AD2A1E01C3007A97D7 /* NewsItem.swift */; };
+		567DC1B02A1E026C007A97D7 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567DC1AF2A1E026C007A97D7 /* WebView.swift */; };
+		567DC1B22A1E0C60007A97D7 /* CoopViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567DC1B12A1E0C60007A97D7 /* CoopViewModel.swift */; };
+		567DC1B42A1E0CBD007A97D7 /* CoopItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567DC1B32A1E0CBD007A97D7 /* CoopItem.swift */; };
+		567DC1B62A1E0D2E007A97D7 /* CoopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567DC1B52A1E0D2E007A97D7 /* CoopView.swift */; };
+		567DC1B82A1E0E2E007A97D7 /* UniView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567DC1B72A1E0E2E007A97D7 /* UniView.swift */; };
+		567DC1BA2A1E0E6A007A97D7 /* UniItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567DC1B92A1E0E6A007A97D7 /* UniItem.swift */; };
+		567DC1BC2A1E0E87007A97D7 /* UniViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567DC1BB2A1E0E87007A97D7 /* UniViewModel.swift */; };
+		567DC1BE2A1E16FF007A97D7 /* JobItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567DC1BD2A1E16FF007A97D7 /* JobItem.swift */; };
+		567DC1C02A1E1802007A97D7 /* JobViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567DC1BF2A1E1802007A97D7 /* JobViewModel.swift */; };
+		567DC1C22A1E1841007A97D7 /* JobView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567DC1C12A1E1841007A97D7 /* JobView.swift */; };
+		568930502A20AAF700E2626F /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5689304F2A20AAF700E2626F /* TitleView.swift */; };
+		568930522A20B0E100E2626F /* CustomTabBarTop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568930512A20B0E100E2626F /* CustomTabBarTop.swift */; };
+		568930552A20B9CF00E2626F /* Info.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568930542A20B9CF00E2626F /* Info.swift */; };
+		568930592A24529A00E2626F /* TabItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568930582A24529A00E2626F /* TabItem.swift */; };
+		5689305B2A2455CA00E2626F /* CustomTabBarBottom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5689305A2A2455CA00E2626F /* CustomTabBarBottom.swift */; };
+		5689305E2A24B73F00E2626F /* AdVIewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5689305D2A24B73F00E2626F /* AdVIewModel.swift */; };
+		568930602A24B77F00E2626F /* AdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5689305F2A24B77F00E2626F /* AdView.swift */; };
+		568930622A24BD1B00E2626F /* AdItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568930612A24BD1B00E2626F /* AdItem.swift */; };
+		568930642A24D00700E2626F /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568930632A24D00700E2626F /* HomeView.swift */; };
+		568930682A24DF4800E2626F /* FiveNewsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568930672A24DF4800E2626F /* FiveNewsViewModel.swift */; };
+		5689306B2A24EA5700E2626F /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 5689306A2A24EA5700E2626F /* SDWebImageSwiftUI */; };
+		5689306E2A24F04600E2626F /* CachedAsyncImage in Frameworks */ = {isa = PBXBuildFile; productRef = 5689306D2A24F04600E2626F /* CachedAsyncImage */; };
+		568930702A25803500E2626F /* CategoryNewsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5689306F2A25803500E2626F /* CategoryNewsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +72,32 @@
 		565B7BA729F99896002E457B /* GanChan NetworkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GanChan NetworkUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		565B7BAB29F99896002E457B /* GanChan_NetworkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GanChan_NetworkUITests.swift; sourceTree = "<group>"; };
 		565B7BAD29F99896002E457B /* GanChan_NetworkUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GanChan_NetworkUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		565B7BBD29F99BBE002E457B /* NewsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsView.swift; sourceTree = "<group>"; };
+		565B7BC129F99E12002E457B /* AppCore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCore.swift; sourceTree = "<group>"; };
+		565B7BC529F9A92E002E457B /* GanChan-Network-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GanChan-Network-Info.plist"; sourceTree = SOURCE_ROOT; };
+		565B7BC629F9AB2B002E457B /* NewsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewModel.swift; sourceTree = "<group>"; };
+		567DC1AD2A1E01C3007A97D7 /* NewsItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsItem.swift; sourceTree = "<group>"; };
+		567DC1AF2A1E026C007A97D7 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		567DC1B12A1E0C60007A97D7 /* CoopViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoopViewModel.swift; sourceTree = "<group>"; };
+		567DC1B32A1E0CBD007A97D7 /* CoopItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoopItem.swift; sourceTree = "<group>"; };
+		567DC1B52A1E0D2E007A97D7 /* CoopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoopView.swift; sourceTree = "<group>"; };
+		567DC1B72A1E0E2E007A97D7 /* UniView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniView.swift; sourceTree = "<group>"; };
+		567DC1B92A1E0E6A007A97D7 /* UniItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniItem.swift; sourceTree = "<group>"; };
+		567DC1BB2A1E0E87007A97D7 /* UniViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniViewModel.swift; sourceTree = "<group>"; };
+		567DC1BD2A1E16FF007A97D7 /* JobItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobItem.swift; sourceTree = "<group>"; };
+		567DC1BF2A1E1802007A97D7 /* JobViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobViewModel.swift; sourceTree = "<group>"; };
+		567DC1C12A1E1841007A97D7 /* JobView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobView.swift; sourceTree = "<group>"; };
+		5689304F2A20AAF700E2626F /* TitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleView.swift; sourceTree = "<group>"; };
+		568930512A20B0E100E2626F /* CustomTabBarTop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarTop.swift; sourceTree = "<group>"; };
+		568930542A20B9CF00E2626F /* Info.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Info.swift; sourceTree = "<group>"; };
+		568930582A24529A00E2626F /* TabItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabItem.swift; sourceTree = "<group>"; };
+		5689305A2A2455CA00E2626F /* CustomTabBarBottom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarBottom.swift; sourceTree = "<group>"; };
+		5689305D2A24B73F00E2626F /* AdVIewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdVIewModel.swift; sourceTree = "<group>"; };
+		5689305F2A24B77F00E2626F /* AdView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdView.swift; sourceTree = "<group>"; };
+		568930612A24BD1B00E2626F /* AdItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdItem.swift; sourceTree = "<group>"; };
+		568930632A24D00700E2626F /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		568930672A24DF4800E2626F /* FiveNewsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiveNewsViewModel.swift; sourceTree = "<group>"; };
+		5689306F2A25803500E2626F /* CategoryNewsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryNewsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +105,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5689306B2A24EA5700E2626F /* SDWebImageSwiftUI in Frameworks */,
+				5689306E2A24F04600E2626F /* CachedAsyncImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,11 +150,17 @@
 		565B7B8E29F9988A002E457B /* GanChan Network */ = {
 			isa = PBXGroup;
 			children = (
-				565B7B8F29F9988A002E457B /* GanChan_NetworkApp.swift */,
 				565B7B9129F9988A002E457B /* ContentView.swift */,
+				568930532A20B9BC00E2626F /* Tab */,
+				5689304B2A20A9C900E2626F /* ViewModel */,
+				5689304A2A20A99F00E2626F /* View */,
+				565B7BC529F9A92E002E457B /* GanChan-Network-Info.plist */,
+				565B7B8F29F9988A002E457B /* GanChan_NetworkApp.swift */,
+				565B7BC129F99E12002E457B /* AppCore.swift */,
 				565B7B9329F99894002E457B /* Assets.xcassets */,
 				565B7B9529F99894002E457B /* GanChan_Network.entitlements */,
 				565B7B9629F99894002E457B /* Preview Content */,
+				5689304E2A20AA8C00E2626F /* Items */,
 			);
 			path = "GanChan Network";
 			sourceTree = "<group>";
@@ -129,6 +190,74 @@
 			path = "GanChan NetworkUITests";
 			sourceTree = "<group>";
 		};
+		5689304A2A20A99F00E2626F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5689304C2A20A9FE00E2626F /* InfoView */,
+				5689304D2A20AA3900E2626F /* component */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5689304B2A20A9C900E2626F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				565B7BC629F9AB2B002E457B /* NewsViewModel.swift */,
+				567DC1BF2A1E1802007A97D7 /* JobViewModel.swift */,
+				567DC1BB2A1E0E87007A97D7 /* UniViewModel.swift */,
+				567DC1B12A1E0C60007A97D7 /* CoopViewModel.swift */,
+				5689305D2A24B73F00E2626F /* AdVIewModel.swift */,
+				568930672A24DF4800E2626F /* FiveNewsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		5689304C2A20A9FE00E2626F /* InfoView */ = {
+			isa = PBXGroup;
+			children = (
+				565B7BBD29F99BBE002E457B /* NewsView.swift */,
+				5689306F2A25803500E2626F /* CategoryNewsView.swift */,
+				567DC1C12A1E1841007A97D7 /* JobView.swift */,
+				567DC1B52A1E0D2E007A97D7 /* CoopView.swift */,
+				567DC1B72A1E0E2E007A97D7 /* UniView.swift */,
+				568930632A24D00700E2626F /* HomeView.swift */,
+			);
+			path = InfoView;
+			sourceTree = "<group>";
+		};
+		5689304D2A20AA3900E2626F /* component */ = {
+			isa = PBXGroup;
+			children = (
+				567DC1AF2A1E026C007A97D7 /* WebView.swift */,
+				5689304F2A20AAF700E2626F /* TitleView.swift */,
+				568930512A20B0E100E2626F /* CustomTabBarTop.swift */,
+				5689305A2A2455CA00E2626F /* CustomTabBarBottom.swift */,
+				5689305F2A24B77F00E2626F /* AdView.swift */,
+			);
+			path = component;
+			sourceTree = "<group>";
+		};
+		5689304E2A20AA8C00E2626F /* Items */ = {
+			isa = PBXGroup;
+			children = (
+				567DC1AD2A1E01C3007A97D7 /* NewsItem.swift */,
+				567DC1B92A1E0E6A007A97D7 /* UniItem.swift */,
+				567DC1BD2A1E16FF007A97D7 /* JobItem.swift */,
+				567DC1B32A1E0CBD007A97D7 /* CoopItem.swift */,
+				568930612A24BD1B00E2626F /* AdItem.swift */,
+			);
+			path = Items;
+			sourceTree = "<group>";
+		};
+		568930532A20B9BC00E2626F /* Tab */ = {
+			isa = PBXGroup;
+			children = (
+				568930542A20B9CF00E2626F /* Info.swift */,
+				568930582A24529A00E2626F /* TabItem.swift */,
+			);
+			path = Tab;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -145,6 +274,10 @@
 			dependencies = (
 			);
 			name = "GanChan Network";
+			packageProductDependencies = (
+				5689306A2A24EA5700E2626F /* SDWebImageSwiftUI */,
+				5689306D2A24F04600E2626F /* CachedAsyncImage */,
+			);
 			productName = "GanChan Network";
 			productReference = 565B7B8C29F9988A002E457B /* GanChan Network.app */;
 			productType = "com.apple.product-type.application";
@@ -217,6 +350,10 @@
 				Base,
 			);
 			mainGroup = 565B7B8329F9988A002E457B;
+			packageReferences = (
+				568930692A24EA5700E2626F /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+				5689306C2A24F04600E2626F /* XCRemoteSwiftPackageReference "swiftui-cached-async-image" */,
+			);
 			productRefGroup = 565B7B8D29F9988A002E457B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -259,8 +396,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				567DC1B62A1E0D2E007A97D7 /* CoopView.swift in Sources */,
+				567DC1C02A1E1802007A97D7 /* JobViewModel.swift in Sources */,
+				567DC1BE2A1E16FF007A97D7 /* JobItem.swift in Sources */,
+				568930642A24D00700E2626F /* HomeView.swift in Sources */,
+				565B7BBE29F99BBE002E457B /* NewsView.swift in Sources */,
+				567DC1B42A1E0CBD007A97D7 /* CoopItem.swift in Sources */,
+				5689305E2A24B73F00E2626F /* AdVIewModel.swift in Sources */,
+				567DC1C22A1E1841007A97D7 /* JobView.swift in Sources */,
 				565B7B9229F9988A002E457B /* ContentView.swift in Sources */,
+				567DC1BA2A1E0E6A007A97D7 /* UniItem.swift in Sources */,
+				568930702A25803500E2626F /* CategoryNewsView.swift in Sources */,
+				568930682A24DF4800E2626F /* FiveNewsViewModel.swift in Sources */,
+				568930552A20B9CF00E2626F /* Info.swift in Sources */,
+				565B7BC729F9AB2B002E457B /* NewsViewModel.swift in Sources */,
+				568930502A20AAF700E2626F /* TitleView.swift in Sources */,
+				568930592A24529A00E2626F /* TabItem.swift in Sources */,
+				568930602A24B77F00E2626F /* AdView.swift in Sources */,
+				567DC1AE2A1E01C3007A97D7 /* NewsItem.swift in Sources */,
+				567DC1B82A1E0E2E007A97D7 /* UniView.swift in Sources */,
+				567DC1B02A1E026C007A97D7 /* WebView.swift in Sources */,
 				565B7B9029F9988A002E457B /* GanChan_NetworkApp.swift in Sources */,
+				565B7BC229F99E12002E457B /* AppCore.swift in Sources */,
+				568930622A24BD1B00E2626F /* AdItem.swift in Sources */,
+				5689305B2A2455CA00E2626F /* CustomTabBarBottom.swift in Sources */,
+				568930522A20B0E100E2626F /* CustomTabBarTop.swift in Sources */,
+				567DC1BC2A1E0E87007A97D7 /* UniViewModel.swift in Sources */,
+				567DC1B22A1E0C60007A97D7 /* CoopViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,6 +579,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"GanChan Network/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "GanChan-Network-Info.plist";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -435,7 +598,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "iFive.GanChan-Network";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -453,6 +616,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"GanChan Network/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "GanChan-Network-Info.plist";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -471,7 +635,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "iFive.GanChan-Network";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -492,7 +656,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "iFive.GanChan-NetworkTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -514,7 +678,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "iFive.GanChan-NetworkTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -535,7 +699,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "iFive.GanChan-NetworkUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -556,7 +720,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "iFive.GanChan-NetworkUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -604,6 +768,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		568930692A24EA5700E2626F /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+		5689306C2A24F04600E2626F /* XCRemoteSwiftPackageReference "swiftui-cached-async-image" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/lorenzofiamingo/swiftui-cached-async-image";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5689306A2A24EA5700E2626F /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 568930692A24EA5700E2626F /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+		5689306D2A24F04600E2626F /* CachedAsyncImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5689306C2A24F04600E2626F /* XCRemoteSwiftPackageReference "swiftui-cached-async-image" */;
+			productName = CachedAsyncImage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 565B7B8429F9988A002E457B /* Project object */;
 }

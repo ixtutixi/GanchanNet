@@ -6,12 +6,20 @@
 //
 
 import SwiftUI
+//import ComposableArchitecture
 
 @main
-struct GanChan_NetworkApp: App {
+struct GanChan_NetworkApp: App {/*
+    let store = Store(
+        initialState: AppState(),
+        reducer: appReducer,
+        environment: AppEnvironment()
+    )
+*/
     var body: some Scene {
         WindowGroup {
             ContentView()
+                //.environmentObject(ViewStore(store))
         }
     }
 }

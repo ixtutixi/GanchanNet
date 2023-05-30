@@ -6,16 +6,35 @@
 //
 
 import SwiftUI
+//import ComposableArchitecture
 
-struct ContentView: View {
+struct ContentView: View {/*
+    @EnvironmentObject var viewStore: ViewStore<AppState, AppAction>
+                           */
+    init() {
+       UITabBar.appearance().isHidden = true
+    }
+    
+    @State var currentTab: Tab = .news
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        VStack(spacing: 0) {
+            TitleView()
+            Divider()
+            TabView(selection: $currentTab) {
+                Info()
+                    .tag(Tab.news)
+                JobView()
+                    .tag(Tab.job)
+                Text("就活情報.開発中")
+                    .tag(Tab.recruit)
+                Text("掲示板.開発中")
+                    .tag(Tab.board)
+            }
+            //Divider()
+        }.overlay(alignment: .bottom){
+            CustomTabBarBottom(currentTab: $currentTab)
+                .padding(.vertical)
         }
-        .padding()
     }
 }
 
